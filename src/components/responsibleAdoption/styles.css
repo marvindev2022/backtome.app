@@ -1,0 +1,83 @@
+.adoption-content {
+    display: flex;
+    gap: 41px;
+}
+
+.adoption-scrol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 476px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Mulish;
+    font-size: 16.473px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.scroll {
+    width: 1.765px;
+    height: 70.598px;
+    background-color: #000;
+}
+
+.none {
+    opacity: 0;
+}
+
+.adoption-text {
+    display: flex;
+    flex-direction: column;
+
+    width: 797px;
+}
+
+.content h1{
+    color: #000;
+    font-family: Abril Fatface;
+    font-size: 80.784px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-content {
+    height: 352px;
+}
+
+.description {
+    margin-top: 15px;
+    width: 737px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20.196px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 40.392px;
+}
+
+.source {
+    font-family: Inter;
+    max-width: 737px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 22.392px;
+}
+
+.red {
+    color: #E95B47;
+}
+
+.adoption-button {
+    background-color: #231e54;
+    color: #fff;
+    font-size: 21.45px;
+    height: 58px;
+    width: 165px;
+    margin-top: 43px;
+    align-self: flex-start;
+    justify-self: end;
+}

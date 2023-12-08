@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@200;300;400&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import './toast.css';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  z-index: 1;
+  width: 100%;
+}
+.scrollConfig::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollConfig::-webkit-scrollbar-track {
+  background: var(--blue-dark, #231E54);
+  border-radius: 10px;
+}
+
+.scrollConfig::-webkit-scrollbar-thumb {
+  background-color: var(--blue-dark, #231E54);
+  border-radius: 10px;
+}
+
+.App {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.blobsYellow {
+  position: absolute;
+  opacity: 0;
+  height: 27%;
+  left: -10%;
+  top: 70%;
+  transition: all 1.2s ease-in-out;
+}
+
+.yellowAnimation {
+  left: 10%;
+  top: 16%;
+  opacity: 1;
+}
+
+.yellowAnimationEnd {
+  left: 2.5%;
+  top: 19%;
+  opacity: 1;
+}
+
+.blobsBlue {
+  position: absolute;
+  opacity: 0;
+  width: 14%;
+  height: 24%;
+  left: -20%;
+  bottom: 0;
+  transition: all 1.2s ease-in-out;
+}
+
+.blobsBlueAnimation {
+  left: 0;
+
+  opacity: 1;
+}
+.blobsBlueAnimationEnd {
+  left: -2%;
+}
+
+.blobsGroup {
+  position: absolute;
+  opacity: 0;
+  height: 25%;
+  right: -10%;
+  top: 20%;
+  transition: all 1.2s ease-in-out;
+}
+
+.blobsGroupAnimation {
+  right: 8%;
+  opacity: 1;
+}
+
+.blobsGroupAnimationEnd {
+  right: 2.5%;
+}
+
+.animals {
+  position: absolute;
+  opacity: 0;
+  width: 65%;
+  right: -3%;
+  bottom: 0;
+  transition: all 1.5s ease-in-out;
+}
+
+.animalsAnimation {
+  opacity: 1;
+}
+
+.signInAtivado1 {
+  height: 150% !important;
+  transform: rotate(285deg);
+  left: -58% !important;
+  top: -19% !important;
+}
+
+.signInAtivado2 {
+  opacity: 0 !important;
+}
+
+.signInAtivado3 {
+  top: 13%;
+  right: -7% !important;
+}
+
+.modal {
+  background-color: rgba(145, 154, 150, 0.3);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 3.6rem;
+  height: 100%;
+  width: 100%;
+
+  overflow-y: scroll;
+  z-index: 20;
+}

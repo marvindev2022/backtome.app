@@ -1,0 +1,20 @@
+.toastRed {
+  background-color: red;
+  color: #fff;
+}
+
+.toastWhite {
+  background-color: #fff;
+  color: #494949;
+
+  border-radius: 10px;
+}
+
+.Toastify__toast-body > div:last-child {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: "Inter";
+  font-size: 1em;
+  font-weight: 800;
+}

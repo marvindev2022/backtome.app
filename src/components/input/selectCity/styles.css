@@ -1,0 +1,40 @@
+.inputSelectCity,
+.inputAnimal > ul > li {
+  height: 60%;
+
+  background: #ffffff;
+  border: none;
+  font-family: "Abril Fatface" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 18px;
+
+  /* black simple */
+
+  color: #000000;
+  outline: none;
+}
+
+.inputSelectCity,
+.inputAnimal > ul {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 4px 4px 27px rgba(0, 0, 0, 0.15) !important;
+  font-size: 1.4em !important;
+}
+
+.inputAnimal > ul > li {
+  font-size: 0.7em !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 2em !important;
+}
+
+.MuiOption-highlighted {
+  background-color: #1313183c !important;
+}

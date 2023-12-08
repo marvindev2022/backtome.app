@@ -1,0 +1,52 @@
+.card-ong {
+    display: flex;
+    width: 256.948px;
+    padding: 17.13px 13.704px 13.704px 13.704px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10.278px;
+
+    border-radius: 4.711px;
+    border: 0.856px solid var(--outline, #E0E6ED);
+    background: #FFF;
+    box-shadow: 0px 2.997725009918213px 5.995450019836426px 0px #D3DAE2;
+}
+
+.card-logo {
+    display: flex;
+    width: 25.695px;
+    height: 25.695px;
+    padding: 0.856px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.856px;
+}
+
+.card-title {
+    color: var(--blue-dark, #231E54);
+    font-family: Abril Fatface;
+    font-size: 22.999px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.101px;
+}
+
+.card-since{
+    color: var(--grey, #494949);
+    font-family: Inter;
+    font-size: 11.5px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    letter-spacing: 0.101px;
+}
+
+.card-description {
+    color: var(--grey, #494949);
+font-family: Inter;
+font-size: 8.565px;
+font-style: normal;
+font-weight: 300;
+line-height: 160%;
+letter-spacing: 0.06px;
+}

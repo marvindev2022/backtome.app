@@ -1,0 +1,38 @@
+.section-help {
+  width: 100%;
+  height: 100vh;
+}
+.container-help {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding-top: 9rem;
+}
+.container-help span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 734px;
+  height: 477px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 3px solid var(--grey, #494949);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.29),
+    -6px 5px 17px 0px rgba(0, 0, 0, 0.29),
+    -23px 22px 32px 0px rgba(0, 0, 0, 0.25),
+    -52px 49px 43px 0px rgba(0, 0, 0, 0.15),
+    -92px 87px 51px 0px rgba(0, 0, 0, 0.04),
+    -144px 136px 56px 0px rgba(0, 0, 0, 0.01);
+    
+}
+.container-help h1 {
+    color: var(--grey, #494949);
+text-align: center;
+font-family: Poiret One;
+font-size: 55.014px;
+font-style: normal;
+font-weight: 400;
+line-height: 94.309px;
+}

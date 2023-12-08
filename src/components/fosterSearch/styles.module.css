@@ -1,0 +1,86 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 443px;
+  z-index: 1;
+  gap: 0px;
+}
+
+.text,
+.textLoaded {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Abril Fatface';
+}
+.text > h2,
+.textLoaded > h2 {
+  width: 70%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53.4692px;
+  line-height: 72px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.text > h2 > span,
+.textLoaded > h2 > span {
+  color: #fbad36;
+}
+
+.divP {
+  display: flex;
+  flex-direction: column;
+  width: 1265px;
+  height: 121px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #494949;
+  gap: 20px;
+  opacity: 1;
+}
+
+.inputAnimal {
+  display: flex;
+  gap: 8.5px;
+  justify-content: center;
+  width: 66%;
+  height: 107.47px;
+}
+
+.inputAnimal > button {
+  width: 19%;
+  height: 60% !important;
+  color: #fff !important;
+  background-color: #231e54;
+  filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.601));
+}
+
+.searchContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  margin-top: -100px;
+}

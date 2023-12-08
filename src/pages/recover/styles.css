@@ -1,0 +1,25 @@
+.recover-page{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #8391DC;
+}
+
+.recover-page > img {
+    height: 600px;
+    width: 800px;
+    position: fixed;
+    bottom: -159px;
+    right: -176px;
+    
+}
+
+.recover-content {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

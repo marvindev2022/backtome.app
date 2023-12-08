@@ -1,0 +1,30 @@
+.foster-page{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.foster-page > img {
+    position: fixed;
+    bottom: 0px;
+    right: -30px;
+
+}
+
+.foster-content {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 150px;
+}
+
+.content {
+    padding-left: 110px;
+}
+
+.img-animals {
+    height: 548px;
+    width: 548px;
+}

@@ -1,0 +1,67 @@
+.container-card {
+  position: absolute;
+  border-radius: 5.514px;
+  border: 0.689px solid rgba(255, 255, 255, 0.282);
+  box-shadow: 0px 3.597787380218506px 7.190475940704346px 0px
+    rgba(4, 4, 7, 0.25);
+  width: 564.452px;
+  height: 244.929px;
+  flex-shrink: 0;
+  color: white;
+  font-size: 32px;
+  transition: top 1s, opacity 1s;
+  padding: 1rem 3rem;
+}
+
+.card {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.img-card-coment {
+  max-width: 4rem;
+  max-height: 4rem;
+  border-radius: 50%;
+}
+
+.container-title-card-comment h2 {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container-title-card-comment h3 {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container-comment {
+  padding: 0 20px;
+  width: 99%;
+  height: 20%;
+
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 1.585rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

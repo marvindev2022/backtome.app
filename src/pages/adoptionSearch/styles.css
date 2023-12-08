@@ -1,0 +1,61 @@
+.adoption-search {
+height: calc(100vh - 58px);
+width: 100vw;
+}
+
+.adoption-bg-one {
+    position: absolute;
+    top: 151px;
+    left: 356px;
+}
+
+.adoption-bg-Two {
+    position: absolute;
+    top: 209px;
+    right: 0;
+}
+.adoption-bg-Three {
+    position: absolute;
+    bottom: 180px;
+    left: 20px;
+}
+
+.adoption-bg-Four {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.adoption-content {
+    height: calc(100% - 106px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text,
+.textLoaded {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Abril Fatface';
+}
+
+.divP {
+    display: flex;
+    flex-direction: column;
+    width: 1265px;
+    height: 121px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+  
+    text-align: center;
+  
+    color: #494949;
+    gap: 20px;
+    opacity: 1;
+  }
